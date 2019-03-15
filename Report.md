@@ -16,7 +16,7 @@
 ### implementations
 
 ###  1-for Full Body 
-  it consists of : head , trunk , 2arms , 2leges , 2foots and fingers.
+  It consists of : head , trunk , 2arms , 2leges , 2foots and fingers.
   Each of all just a cube so,first i draw the trunk and head above it  and localized them,then i put each one of them in a seperated matrix started with push and ends with pop.
 
 for example :
@@ -33,8 +33,9 @@ for example :
 Then i draw the left and right arm each one consists of shoulder ,elbow and four fingers 
 each part in a seperated matrix startes with push and ends with pop.
 ###### Note That
-==>shoulder will do 2 rotation:  1) rotate up and down or around z-axis ("shoulder" in code ) 
-                                 2) rotate around its axis or y-axis  ("shoulder2" in code )
+==>shoulder will do 2 rotation:
+1) rotate up and down or around z-axis ("shoulder" in code ) 
+2) rotate around its axis or y-axis  ("shoulder2" in code )
 								 
 for example :
 ```
@@ -81,8 +82,9 @@ And i draw the left and right leg each one consists of hip ,knee and foot
 each part in a seperated matrix startes with push and ends with pop.
 
 ###### Note That
-hip will do 2 movements: 1) right and left ("hip" in code )  
-                         2) forward and backward ("hip2" in code ) 
+==>hip will do 2 movements:
+1) right and left ("hip" in code )  
+2) forward and backward ("hip2" in code ) 
 
 for example :
 ```
